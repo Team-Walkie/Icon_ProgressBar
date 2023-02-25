@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 버튼이 눌렸을 때 -->
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle" android:padding = "10dp">
+            <solid android:color="#E8E8E8" />
+            <corners android:radius="10dp"/>
+        </shape>
+    </item>
+
+    <!-- 버튼이 안 눌렸을 때(디폴트) -->
+    <item android:state_pressed="false">
+        <shape android:shape="rectangle" android:padding = "10dp">
+            <solid android:color="#E8E8E8" />
+            <corners android:radius="10dp"/>
+        </shape>
+    </item>
+
+</selector>
